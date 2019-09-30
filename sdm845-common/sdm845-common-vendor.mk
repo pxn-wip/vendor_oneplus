@@ -154,7 +154,22 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libdpmtcm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libdpmtcm.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimscamera_jni.so \
     vendor/oneplus/sdm845-common/proprietary/product/lib64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libimsmedia_jni.so \
-    vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so
+    vendor/oneplus/sdm845-common/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfdcommonutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdcommonutils.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfdconfigutils.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdconfigutils.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfdmminterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdmminterface.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfdmmsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdmmsink.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfdrtsp.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdrtsp.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfdsinksm.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfdsinksm.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfduibcinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcinterface.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfduibcsink.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsink.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfduibcsinkinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsinkinterface.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfduibcsrc.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsrc.so \
+    vendor/oneplus/sdm845-common/proprietary/lib64/libwfduibcsrcinterface.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libwfduibcsrcinterface.so \
+    vendor/oneplus/sdm845-common/proprietary/product/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/product/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
+    vendor/oneplus/sdm845-common/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/product/lib64/libaptXHD_encoder.so \
+    vendor/oneplus/sdm845-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/product/lib64/libaptX_encoder.so \
+    vendor/oneplus/sdm845-common/proprietary/lib/libwfdsinksm.so:$(TARGET_COPY_OUT_PRODUCT)/lib/libwfdsinksm.so
 
 PRODUCT_PACKAGES += \
     libantradio \
@@ -167,4 +182,5 @@ PRODUCT_PACKAGES += \
     ims \
     qcrilmsgtunnel \
     qcnvitems \
-    dashd
+    dashd \
+    libplatformconfig
