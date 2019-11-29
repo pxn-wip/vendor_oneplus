@@ -425,4 +425,5 @@ PRODUCT_PACKAGES += \
     WfdCommon \
     qcnvitems \
     qcrilhook \
-    dashd
+    dashd \
+    libplatformconfig
